@@ -2,7 +2,7 @@
   "name": "SolidMusic Bot",
   "description": "Open Source bot to stream media trough Telegram Voice Chat. Powered by PyTgCalls and Pyrogram",
   "keywords": ["solidmusic", "musicbot", "video-stream", "videochat", "voicechat", "telegram"],
-  "repository": "https://github.com/DoellBarr/solidmusic",
+  "repository": "https://github.com/The-tychon/solidmusic",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -28,12 +28,12 @@
     "GROUP_LINK": {
       "description": "your group support link, can use private or public group, example https://t.me/solidprojects_chat",
       "required": false,
-      "value": "https://t.me/solidprojects_chat"
+      "value": "https://t.me/electrobot_support"
     },
     "CHANNEL_LINK": {
       "description": "your channel support link, can use private or public channel, example https://t.me/solidprojects",
       "required": false,
-      "value": "https://t.me/solidprojects"
+      "value": "https://t.me/electro_updates"
     },
     "UPSTREAM_REPO": {
       "description": "fill it if you fork from original repo",
