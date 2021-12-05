@@ -13,7 +13,7 @@ from functions.youtube_utils import get_yt_details, download_yt_thumbnails
 bot = Bot()
 
 
-@Client.on_message(filters.command("start"))
+@Client.on_message(filters.command("love"))
 async def pm_start(_, message: Message):
     bot_username = (await bot.get_me()).username
     bot_name = (await bot.get_me()).first_name
