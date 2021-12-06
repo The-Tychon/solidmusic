@@ -96,7 +96,7 @@ async def pm_start(_, message: Message):
         )
 
 
-__cmds__ = ["start"]
+__cmds__ = ["love"]
 __help__ = {
-    "start": "help_start"
+    "love": "help_start"
 }
